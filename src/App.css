@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg {
+  background-image: url("./assets/hero.jpg");
+  /* height: 100vh; */
+  object-fit: cover;
+  width: 100%;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.transparent {
+  background-color: rgba(0, 0, 0, 0.65);
+  padding: 25px;
+}
+.navbar_logo {
+  height: 50px;
+}
+button {
+  all: unset;
+  color: white;
+}
+.bold {
+  font-weight: bold;
+}
+button:hover {
+  color: rgb(172, 172, 172);
+  transition: all 0.2s ease;
+}
+button:active {
+  color: rgb(112, 110, 110);
+}
+.top {
+  margin-top: 100px;
+  color: white;
+  font-size: 65px;
+}
+.bottom {
+  margin-bottom: 100px;
+}
+.btn-1 {
+  border: 1px solid white;
+  background-color: white;
+  color: black;
+  border-radius: none;
+  padding: 15px 25px;
+  transition: all 0.5s;
+}
+.btn-1:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+}
+.btn-2 {
+  border: 1px solid white;
+  color: white;
+  padding: 15px 25px;
+  transition: all 0.5s;
+}
+.btn-2:hover {
+  background-color: white;
+  color: black;
+}
+.button-1 {
+  display: flex;
+  justify-content: center;
+}
+.button-1-btn {
+  border: 1px solid black;
+  padding: 10px 25px;
+  border-radius: 10px;
+  color: black;
+}
+.button-1-btn:hover {
+  color: white;
+  background-color: black;
+}
+/* *********************Product Details Styling******************************* */
+
+.details_image {
+  /* border: 1px solid black; */
+  height: 100%;
+  width: 100%;
+  padding: 5%;
+}
+.div-container {
+  /* border: 1px solid black; */
+  width: 50%;
+  height: 550px;
+  border-radius: 20px;
+}
+.details_button {
+  color: rgb(146, 145, 145);
+}
+.details_count {
+  border: 1px solid black;
+  display: inline-block;
+  border-radius: 20px;
+  padding: 10px 25px;
+}
+.details_button-1 {
+  color: rgb(146, 145, 145);
+  font-size: 20px;
+}
+.details_button-2{
+    border: 1px solid blue;
+    padding: 14px 100px;
+    border-radius: 20px;
+    background-color: blue;
+}
+.details_button-2:hover{
+  border: 1px solid blue;
+  background-color: white;
+  color: blue;
+}
+.details_count-2{
+  margin-left: 20px;
+  display: inline-block;
+}
